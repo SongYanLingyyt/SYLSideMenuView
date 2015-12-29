@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		229EC5DB1C2CE0FA00E6B988 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229EC5DA1C2CE0FA00E6B988 /* MenuView.swift */; };
+		229EC5DE1C2CE5F300E6B988 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229EC5DC1C2CE5F300E6B988 /* NextViewController.swift */; };
+		229EC5DF1C2CE5F300E6B988 /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229EC5DD1C2CE5F300E6B988 /* NextViewController.xib */; };
 		22A452701C2BE5FC006930A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A4526F1C2BE5FC006930A5 /* AppDelegate.swift */; };
 		22A452721C2BE5FC006930A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A452711C2BE5FC006930A5 /* ViewController.swift */; };
 		22A452751C2BE5FC006930A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A452731C2BE5FC006930A5 /* Main.storyboard */; };
@@ -14,6 +17,8 @@
 		22A4527A1C2BE5FC006930A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A452781C2BE5FC006930A5 /* LaunchScreen.storyboard */; };
 		22A452851C2BE5FC006930A5 /* YLSideLipViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A452841C2BE5FC006930A5 /* YLSideLipViewTests.swift */; };
 		22A452901C2BE5FD006930A5 /* YLSideLipViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A4528F1C2BE5FD006930A5 /* YLSideLipViewUITests.swift */; };
+		22A4529E1C2BE6AA006930A5 /* SYLSideSlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A4529D1C2BE6AA006930A5 /* SYLSideSlipView.swift */; };
+		22A452A01C2BFA05006930A5 /* bg_night_sunny.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22A4529F1C2BFA05006930A5 /* bg_night_sunny.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		229EC5DA1C2CE0FA00E6B988 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		229EC5DC1C2CE5F300E6B988 /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		229EC5DD1C2CE5F300E6B988 /* NextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
 		22A4526C1C2BE5FC006930A5 /* YLSideLipView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLSideLipView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A4526F1C2BE5FC006930A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22A452711C2BE5FC006930A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,8 @@
 		22A4528B1C2BE5FD006930A5 /* YLSideLipViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLSideLipViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A4528F1C2BE5FD006930A5 /* YLSideLipViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLSideLipViewUITests.swift; sourceTree = "<group>"; };
 		22A452911C2BE5FD006930A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22A4529D1C2BE6AA006930A5 /* SYLSideSlipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SYLSideSlipView.swift; sourceTree = "<group>"; };
+		22A4529F1C2BFA05006930A5 /* bg_night_sunny.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_night_sunny.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +107,17 @@
 		22A4526E1C2BE5FC006930A5 /* YLSideLipView */ = {
 			isa = PBXGroup;
 			children = (
+				22A4529F1C2BFA05006930A5 /* bg_night_sunny.jpg */,
 				22A4526F1C2BE5FC006930A5 /* AppDelegate.swift */,
 				22A452711C2BE5FC006930A5 /* ViewController.swift */,
 				22A452731C2BE5FC006930A5 /* Main.storyboard */,
 				22A452761C2BE5FC006930A5 /* Assets.xcassets */,
 				22A452781C2BE5FC006930A5 /* LaunchScreen.storyboard */,
 				22A4527B1C2BE5FC006930A5 /* Info.plist */,
+				22A4529D1C2BE6AA006930A5 /* SYLSideSlipView.swift */,
+				229EC5DA1C2CE0FA00E6B988 /* MenuView.swift */,
+				229EC5DC1C2CE5F300E6B988 /* NextViewController.swift */,
+				229EC5DD1C2CE5F300E6B988 /* NextViewController.xib */,
 			);
 			path = YLSideLipView;
 			sourceTree = "<group>";
@@ -232,6 +247,8 @@
 				22A4527A1C2BE5FC006930A5 /* LaunchScreen.storyboard in Resources */,
 				22A452771C2BE5FC006930A5 /* Assets.xcassets in Resources */,
 				22A452751C2BE5FC006930A5 /* Main.storyboard in Resources */,
+				22A452A01C2BFA05006930A5 /* bg_night_sunny.jpg in Resources */,
+				229EC5DF1C2CE5F300E6B988 /* NextViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229EC5DE1C2CE5F300E6B988 /* NextViewController.swift in Sources */,
 				22A452721C2BE5FC006930A5 /* ViewController.swift in Sources */,
+				229EC5DB1C2CE0FA00E6B988 /* MenuView.swift in Sources */,
+				22A4529E1C2BE6AA006930A5 /* SYLSideSlipView.swift in Sources */,
 				22A452701C2BE5FC006930A5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +502,7 @@
 				22A452961C2BE5FD006930A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22A452971C2BE5FD006930A5 /* Build configuration list for PBXNativeTarget "YLSideLipViewTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +511,7 @@
 				22A452991C2BE5FD006930A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22A4529A1C2BE5FD006930A5 /* Build configuration list for PBXNativeTarget "YLSideLipViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +520,7 @@
 				22A4529C1C2BE5FD006930A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
